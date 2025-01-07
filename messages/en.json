@@ -1,6 +1,6 @@
 {
     "person": {
-        "role": "Design Engineer"
+        "role": "Engineer"
     },
     "newsletter": {
         "title": "Subscribe to {firstName}'s Newsletter",
@@ -11,8 +11,8 @@
         "label": "Home",
         "title": "{name}'s Portfolio",
         "description": "Portfolio website showcasing my work as a {role}",
-        "headline": "Design engineer and builder",
-        "subline": "I'm Selene, a design engineer at FLY, where I craft intuitive user experiences. After hours, I build my own projects."
+        "headline": "Tech lead and builder",
+        "subline": "I am Aki, a web developer, tech lead, and founder of Gravity Elements. I craft intuitive digital experiences that make a lasting impact—and when I’m not leading teams, you’ll find me building passion projects that push my creativity."
     },
     "about": {
         "label": "About",
@@ -20,7 +20,7 @@
         "description": "Meet {name}, {role} from {location}",
         "intro": {
             "title": "Introduction",
-            "description": "Selene is a Jakarta-based design engineer with a passion for transforming complex challenges into simple, elegant design solutions. Her work spans digital interfaces, interactive experiences, and the convergence of design and technology."
+            "description": "Aki is a tech leader, entrepreneur, and web developer passionate about solving real-world problems through technology. As the founder of Gravity Elements, he leads the creation of user-centric web experiences that balance functionality and simplicity. His core focus is helping long-established mom-and-pop shops adapt to new changes by modernizing their websites with scalable, modern tools that help their businesses thrive in an ever-evolving digital world."
         },
         "work": {
             "title": "Work Experience",

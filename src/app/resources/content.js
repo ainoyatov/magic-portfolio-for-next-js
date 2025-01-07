@@ -6,10 +6,10 @@ const person = {
     get name() {
         return `${this.firstName} ${this.lastName}`;
     },
-    role:      'Design Engineer',
+    role:      'Web Developer',
     avatar:    '/images/avatar.png',
     location:  'America/Phoenix',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-    languages: ['English', 'Uzbek']  // optional: Leave the array empty if you don't want to display languages
+    languages: ['English', 'Russian', 'Turkish', 'Uzbek']  // optional: Leave the array empty if you don't want to display languages
 }
 
 const newsletter = {
@@ -24,12 +24,12 @@ const social = [
     {
         name: 'GitHub',
         icon: 'github',
-        link: 'https://github.com/once-ui-system/nextjs-starter',
+        link: 'https://github.com/ainoyatov',
     },
     {
         name: 'LinkedIn',
         icon: 'linkedin',
-        link: 'https://www.linkedin.com/company/once-ui/',
+        link: 'https://www.linkedin.com/in/aki-inoyatov',
     },
     {
         name: 'X',
@@ -39,7 +39,7 @@ const social = [
     {
         name: 'Email',
         icon: 'email',
-        link: 'mailto:example@gmail.com',
+        link: 'mailto:info@gravityelements.com',
     },
 ]
 
@@ -47,8 +47,9 @@ const home = {
     label: 'Home',
     title: `${person.name}'s Portfolio`,
     description: `Portfolio website showcasing my work as a ${person.role}`,
-    headline: <>Design engineer and builder</>,
-    subline: <>I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive<br/> user experiences. After hours, I build my own projects.</>
+    headline: <>Tech lead and builder</>,
+    subline: <>
+    I'm Aki, a web developer, tech lead, and the founder of <InlineCode>Gravity Elements</InlineCode>, where I craft intuitive user experiences. When I'm not leading teams, you'll find me building passion projects that push my creativity.</>
 }
 
 const about = {
@@ -69,19 +70,22 @@ const about = {
     intro: {
         display: true,
         title: 'Introduction',
-        description: <>Selene is a Jakarta-based design engineer with a passion for transforming complex challenges into simple, elegant design solutions. Her work spans digital interfaces, interactive experiences, and the convergence of design and technology.</>
+        description: <>I’m a tech leader, entrepreneur, and web developer passionate about solving real-world problems through technology. As the founder of Gravity Elements, I focus on creating user-centric web experiences that balance functionality and simplicity while addressing the unique needs of each business.
+        <br/>
+        <br/>
+        Specializing in digital transformation, I modernize outdated websites with scalable, modern tools that keep long-established mom-and-pop shops competitive in an ever-evolving digital world. Through e-commerce solutions, I help unlock new revenue streams, expand their reach, and drive sustainable growth.</>
     },
     work: {
         display: true, // set to false to hide this section
         title: 'Work Experience',
         experiences: [
             {
-                company: 'FLY',
+                company: 'Gravity Elements',
                 timeframe: '2022 - Present',
-                role: 'Senior Design Engineer',
+                role: 'Web Developer',
                 achievements: [
-                    <>Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user engagement and 30% faster load times.</>,
-                    <>Spearheaded the integration of AI tools into design workflows, enabling designers to iterate 50% faster.</>
+                    <>Redesigned and modernized web platforms for clients, improving user engagement by 20% and optimizing performance with 30% faster load times through scalable, user-centric solutions</>,
+                    <>Led the integration of analytics and automation tools into web development workflows, enabling businesses to streamline processes and achieve a 50% faster iteration cycle on website updates and optimizations.</>
                 ],
                 images: [ // optional: leave the array empty if you don't want to display images
                     {
