@@ -70,10 +70,15 @@ const about = {
     intro: {
         display: true,
         title: 'Introduction',
-        description: <>I’m a tech leader, entrepreneur, and web developer passionate about solving real-world problems through technology. As the founder of Gravity Elements, I focus on creating user-centric web experiences that balance functionality and simplicity while addressing the unique needs of each business.
-        <br/>
-        <br/>
-        Specializing in digital transformation, I modernize outdated websites with scalable, modern tools that keep long-established mom-and-pop shops competitive in an ever-evolving digital world. Through e-commerce solutions, I help unlock new revenue streams, expand their reach, and drive sustainable growth.</>
+        description: <>Web development professional with proven history of building and optimizing web applications to meet client specifications. Adept at collaborating within teams to deliver high-quality projects that drive business results. Known for technical acumen in various programming languages and adaptability to evolving project requirements. 
+        <br />
+        <br />
+        Pursuing full-time role that presents professional challenges and leverages interpersonal skills, effective time management, and problem-solving expertise.</>
+
+        // description: <>I’m a tech leader, entrepreneur, and web developer passionate about solving real-world problems through technology. As the founder of Gravity Elements, I focus on creating user-centric web experiences that balance functionality and simplicity while addressing the unique needs of each business.
+        // <br/>
+        // <br/>
+        // Specializing in digital transformation, I modernize outdated websites with scalable, modern tools that keep long-established mom-and-pop shops competitive in an ever-evolving digital world. Through e-commerce solutions, I help unlock new revenue streams, expand their reach, and drive sustainable growth.</>
     },
     work: {
         display: true, // set to false to hide this section
@@ -84,25 +89,67 @@ const about = {
                 timeframe: '2022 - Present',
                 role: 'Web Developer',
                 achievements: [
-                    <>Redesigned and modernized web platforms for clients, improving user engagement by 20% and optimizing performance with 30% faster load times through scalable, user-centric solutions</>,
-                    <>Led the integration of analytics and automation tools into web development workflows, enabling businesses to streamline processes and achieve a 50% faster iteration cycle on website updates and optimizations.</>
+                    <>Founded and managed a web development agency, leading a team of developers and designers to deliver high-quality web solutions for various clients (Uncharted Ventures LLC, Art & Custom Frames)</>,
+                    <>Increased client acquisition by 60% in the first year through targeted marketing strategies and SEO optimization</>,
+                    <>Led the redesign of a major client's e-commerce site, resulting in a 35% increase in conversion rates and a 25% rise in average order value over a six-month period</>,
+                    <>Developed and launched a CRM tool to enhance team collaboration and productivity, reducing project turnaround times by 40%</>,
+                    <>Designed and developed a highly responsive, user-friendly Transportation Management Software
+                    (TMS) for clients, resulting in a 30% uptick in online traffic and engagement
+                    </>,
+                    <>Spearheaded the creation and launch of a successful e-commerce platform, driving a 30% increase in sales within the first quarter of operation
+                    </>,
                 ],
                 images: [ // optional: leave the array empty if you don't want to display images
-                    {
-                        src: '/images/projects/project-01/cover-01.jpg',
-                        alt: 'Once UI Project',
-                        width: 16,
-                        height: 9
-                    }
+                    // {
+                    //     src: '/images/projects/project-01/cover-01.jpg',
+                    //     alt: 'Once UI Project',
+                    //     width: 16,
+                    //     height: 9
+                    // }
                 ]
             },
             {
-                company: 'Creativ3',
-                timeframe: '2018 - 2022',
-                role: 'Lead Designer',
+                company: 'Dirilis Group Inc',
+                timeframe: '4/23 - 9/23',
+                role: 'Contractor, Software Engineer',
                 achievements: [
-                    <>Developed a design system that unified the brand across multiple platforms, improving design consistency by 40%.</>,
-                    <>Led a cross-functional team to launch a new product line, contributing to a 15% increase in overall company revenue.</>
+                    <>Successfully integrated APIs with 3rd party solutions</>,
+                    <>Optimized the existing ETL processes, automated scheduling and logging</>,
+                    <>Designed and documented API specifications</>
+                ],
+                images: [ ]
+            },
+            {
+                company: 'WellPsyche Medical Group',
+                timeframe: '11/22 - 4/23',
+                role: 'Contractor, Lead Engineer, AWS Cloud Engineer',
+                achievements: [
+                    <>Successfully identified and partnered with a certified HIPAA compliance provider, leading to a 20% decrease in AWS HIPAA audit violations and ensuring regulatory adherence</>,
+                    <>Discovered and implemented a third-party solution for developing and managing security programs such as HIPAA, resulting in a 30% reduction in time and resources needed for program maintenance</>,
+                ],
+                images: [ ]
+            },
+            {
+                company: 'AdviNOW Medical',
+                timeframe: '5/22 - 11/22',
+                role: 'Director of Engineering, Infrastructure and API Services',
+                achievements: [
+                    <>Led DevOps, Middleware, and API teams, overseeing their operations and ensuring successful execution</>,
+                    <>Orchestrated the seamless migration of 28 Kubernetes based applications from one cloud Managed Service Provider (MSP) to another</>,
+                    <>Spearheaded the development of an open-source observability stack to replace the existing logging service</>,
+                    <>Utilized Terraform to streamline provisioning and configuration of Kubernetes clusters, resulting in a 25% enhancement in resource allocation efficiency and a 20% increase in high availability</>
+                ],
+                images: [ ]
+            },
+            {
+                company: 'Allstate Identity Protection',
+                timeframe: '5/16 - 5/22',
+                role: 'Research Engineer, Sales Engineer, Analyst Engineer, Implementation Manager',
+                achievements: [
+                    <>Demonstrated continuous growth and versatility at Allstate through progression from client onboarding to overseeing technical aspects of batch processing, Sales Engineer, and ultimately Research Engineer</>,
+                    <>Contributed to companywide re-platforming efforts to transition from Monolithic tech stack to Microservices based architecture, accelerating time-to-market for new features by 75%</>,
+                    <>Constructed an annotation user interface with Prodigy, resulting in a 40% increase in efficiency for generating training and evaluation data for machine learning models</>,
+                    <>Led companywide effort to integrate a machine learning model analyzing Terms of Service (TOS) language, resulting in product enhancement that generated $3 million in revenue over 3 years</>
                 ],
                 images: [ ]
             }
@@ -113,12 +160,12 @@ const about = {
         title: 'Studies',
         institutions: [
             {
-                name: 'University of Jakarta',
-                description: <>Studied software engineering.</>,
+                name: 'The University of Manchester, UK',
+                description: <>BA Econ.</>,
             },
             {
-                name: 'Build the Future',
-                description: <>Studied online marketing and personal branding.</>,
+                name: 'Fox Valley Technical College',
+                description: <>Exchange program.</>,
             }
         ]
     },
@@ -127,8 +174,8 @@ const about = {
         title: 'Technical skills',
         skills: [
             {
-                title: 'Figma',
-                description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
+                title: 'React',
+                description: <>Able to build dynamic, scalable web applications using React, creating maintainable components and delivering seamless, user-centric experiences.</>,
                 // optional: leave the array empty if you don't want to display images
                 images: [
                     {
@@ -147,7 +194,7 @@ const about = {
             },
             {
                 title: 'Next.js',
-                description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+                description: <>Able to build next-gen web applications with Next.js, implementing authentication, database integrations, server-side rendering, and API routes while optimizing performance, SEO, and user experience to deliver scalable, modern solutions.</>,
                 // optional: leave the array empty if you don't want to display images
                 images: [
                     {
