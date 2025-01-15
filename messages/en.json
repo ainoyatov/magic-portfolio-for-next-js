@@ -25,14 +25,14 @@
         "work": {
             "title": "Work Experience",
             "experiences": {
-                "FLY": {
-                    "timeframe": "2022 - Present",
-                    "role": "Web Developer",
-                    "achievements": "Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user engagement and 30% faster load times.;Spearheaded the integration of AI tools into design workflows, enabling designers to iterate 50% faster."
+                "Gravity Elements": {
+                    "timeframe": "2023 - Present",
+                    "role": "Web Developer | Founder",
+                    "achievements": "Redesigned the UI/UX using Figma platform, resulting in a 20% increase in user engagement and 30% faster load times.;Spearheaded the integration of AI tools into design workflows, enabling designers to iterate 50% faster."
                 },
-                "Creativ3": {
-                    "timeframe": "2018 - 2022",
-                    "role": "Lead Designer",
+                "AdviNOW Medical": {
+                    "timeframe": "2022 - 2023",
+                    "role": "Director of Engineering",
                     "achievements": "Developed a design system that unified the brand across multiple platforms, improving design consistency by 40%.;Led a cross-functional team to launch a new product line, contributing to a 15% increase in overall company revenue."
                 }
             }
